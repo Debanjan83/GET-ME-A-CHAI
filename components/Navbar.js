@@ -78,7 +78,7 @@ const Navbar = () => {
                   </ul>
                 </div>
               </div>
-
+              
               <button
                 onClick={() => signOut()}
                 className="bg-gradient-to-r from-purple-600 to-blue-500 px-5 py-2 rounded-lg text-sm font-medium hover:opacity-90 transition cursor-pointer"
