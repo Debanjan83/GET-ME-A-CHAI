@@ -84,16 +84,27 @@ export default function Home() {
         <h2 className="text-3xl md:text-4xl text-center mb-12 font-bold">
           Learn More About Us
         </h2>
-        <div className="w-full md:w-2/3 lg:w-1/2 aspect-video rounded-xl overflow-hidden shadow-lg">
-          <iframe
-            className="w-full h-full"
-            src="https://www.youtube.com/embed/ojuUnfqnUI0?si=MWrGIO1_I6H8UbWI"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
+        <div className="max-w-3xl space-y-6 text-center">
+          <p className="text-gray-300 text-lg leading-relaxed">
+            <span className="font-semibold text-white">Get Me A Chai</span> is a
+            crowdfunding platform built for creators, dreamers, and innovators.
+            Whether you're an artist, developer, writer, or educator, you can
+            connect with your fans and receive their support directly.
+          </p>
+          <p className="text-gray-300 text-lg leading-relaxed">
+            We believe small contributions can make a big difference. That’s why
+            we created a simple way for fans to “buy you a chai” — a token of
+            appreciation that helps you keep doing what you love.
+          </p>
+          <p className="text-gray-300 text-lg leading-relaxed">
+            Our mission is to empower communities, support creativity, and turn
+            passion into impact. Join us and start your journey today!
+          </p>
+          <Link href="/about">
+            <button className="text-white bg-gradient-to-r from-purple-600 to-blue-500 hover:opacity-90 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-6 py-3 cursor-pointer transition">
+              Discover More
+            </button>
+          </Link>
         </div>
       </section>
     </>
