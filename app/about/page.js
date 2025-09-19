@@ -6,7 +6,7 @@ const About = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-center mb-8 mt-14">About Get Me a Chai</h1>
             <p className="text-lg text-center text-gray-400 max-w-3xl mx-auto">
                 Get Me a Chai is a crowdfunding platform designed for creators to fund their projects with the support of their fans.
-                It's a space where your fans can directly contribute to your creative endeavors by buying you a chai.
+                It&apos;s a space where your fans can directly contribute to your creative endeavors by buying you a chai.
                 Unlock the potential of your fanbase and bring your projects to life.
             </p>
 
