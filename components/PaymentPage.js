@@ -88,7 +88,7 @@ const PaymentPage = ({ username }) => {
 
             <div className="mt-20 flex flex-col items-center gap-2 text-center">
                 <h1 className="text-2xl font-bold">@{username}</h1>
-                <p className="text-gray-400">Let's help {username} get a chai!</p>
+                <p className="text-gray-400">Let&apos;s help {username} get a chai!</p>
                 <p className="text-gray-400">
                     {payments.length} Payments · ₹{totalRaised} raised
                 </p>
@@ -105,7 +105,7 @@ const PaymentPage = ({ username }) => {
                                 <li key={i} className="flex items-center gap-3">
                                     <img src="/avatar.gif" width={33} alt="Avatar" className="rounded-full" />
                                     <span>
-                                        {p.name} donated <b>₹{p.amount}</b> – "{p.message}"
+                                        {p.name} donated <b>₹{p.amount}</b> – &quot;{p.message}&quot;
                                     </span>
                                 </li>
                             ))
