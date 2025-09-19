@@ -88,11 +88,11 @@ export default function Home() {
           <p className="text-gray-300 text-lg leading-relaxed">
             <span className="font-semibold text-white">Get Me A Chai</span> is a
             crowdfunding platform built for creators, dreamers, and innovators.
-            Whether you're an artist, developer, writer, or educator, you can
+            Whether you&apos;re an artist, developer, writer, or educator, you can
             connect with your fans and receive their support directly.
           </p>
           <p className="text-gray-300 text-lg leading-relaxed">
-            We believe small contributions can make a big difference. That’s why
+            We believe small contributions can make a big difference. That&apos;s why
             we created a simple way for fans to “buy you a chai” — a token of
             appreciation that helps you keep doing what you love.
           </p>
